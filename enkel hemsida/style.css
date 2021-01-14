@@ -1,0 +1,23 @@
+body{
+	background-color: white;
+}
+table, th, td{
+	border-collapse: collapse;
+	border: 3px solid grey;
+	padding: 15px;
+}
+th{
+	background-color: #A79674;
+}
+tr:nth-child(even) {background: #FFF}
+tr:nth-child(odd) {background: #CCC}
+
+a{
+	text-decoration: none;
+}
+a:hover{
+	color: red;
+}
+iframe{
+	border: 0;
+}
